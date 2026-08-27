@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "Welcome to Flask CI/CD v3"}
+    return {"message": "Welcome to Flask CI/CD v5"}
 
 @app.route("/health")
 def health():
