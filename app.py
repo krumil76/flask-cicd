@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "Welcome to Flask CI/CD V2"}
+    return {"message": "Welcome to Flask CI/CD v3"}
 
 @app.route("/health")
 def health():
@@ -12,4 +12,3 @@ def health():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-
